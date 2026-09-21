@@ -1,0 +1,29 @@
+{
+  "learning_rates_tried": [
+    0.0003,
+    0.001,
+    0.003
+  ],
+  "dropout_rates_tried": [
+    0.1,
+    0.3,
+    0.5
+  ],
+  "epochs_per_run": 3,
+  "learning_rate_sweep": {
+    "0.0003": 0.6946859903381642,
+    "0.001": 0.7555555555555555,
+    "0.003": 0.6898550724637681
+  },
+  "dropout_sweep_at_best_lr": {
+    "0.1": 0.7217391304347827,
+    "0.3": 0.7429951690821256,
+    "0.5": 0.7256038647342995
+  },
+  "best_learning_rate": 0.001,
+  "best_dropout": 0.3,
+  "tuned_validation_accuracy": 0.7429951690821256,
+  "prior_validation_accuracy": 0.7555555555555555,
+  "improved_over_prior": false,
+  "elapsed_seconds": 378.4329719543457
+}
