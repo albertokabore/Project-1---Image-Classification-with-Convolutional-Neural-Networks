@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Temporary Word files and intermediate report copy
+~$*.docx
+CNN_Project_Report_Audited.docx
